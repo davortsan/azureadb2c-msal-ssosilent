@@ -1,9 +1,9 @@
 // Config object to be passed to Msal on creation
 const msalConfig = {
     auth: {
-        clientId: "<clientID_SSOApp2>", //sso-silent app id
-        authority: "https://<your_b2c_tenant_name>.b2clogin.com/<your_b2c_tenant_name>.onmicrosoft.com/<your_signup_signin_policy_name>",
-        knownAuthorities: ["<your_b2c_tenant_name>.b2clogin.com"]
+        clientId: "clientID_SSOApp2", //sso-silent app id
+        authority: "https://your_b2c_tenant_name.b2clogin.com/your_b2c_tenant_name.onmicrosoft.com/your_signup_signin_policy_name",
+        knownAuthorities: ["your_b2c_tenant_name.b2clogin.com"]
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
