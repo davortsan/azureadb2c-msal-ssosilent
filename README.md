@@ -84,3 +84,34 @@ When you download the code of this repository, you will see two folders: <em>SSO
   <li>Replace <code>your_b2c_tenant_name</code> with the name of your Azure Active Directory B2C tenant</li>
   <li>Replace <code>your_signup_signin_policy_name</code> using the name of your Sign up and sign in user flow</li>
 </ol>
+
+Make the same actions to <b>authConfig.js</b> that exist on <em>SSOApp2/app</em> folder. You must use the clientID of the second App registration that you created previously.
+
+<h2>Start the project</h2>
+In this moment, all configuration was done so, we only need to start both projects and test the silent SSO between both web apps.
+
+<ol>
+  <li>Open SSOApp1 and SSOApp2 folders in different Visual Studio Code windows.</li>
+  <li>In each of them, open a Terminal window and execute</li>
+  <code>
+    npm update
+    npm start
+  </code>
+</ol>
+
+SSOApp1 Terminal window:
+
+![image](https://user-images.githubusercontent.com/2305432/227875946-e86e9ecf-c85e-4c4a-bb2e-2856018a61d3.png)
+
+SSOApp2 Terminal window:
+
+![image](https://user-images.githubusercontent.com/2305432/227876052-c426e301-2997-470c-8289-e38031ad8fc1.png)
+
+<ol start="3">
+  <li>Open a web browser</li>
+  <li>Navigate to <code>http://localhost:3000</code></li>
+  <li>Sign In</li>
+  <li>Open a new tab</li>
+  <li>Navigate to <code>http://localhost:7000</code></li>
+  <li>Check that the Silent SSO was executed successfully!</li>
+</ol>
