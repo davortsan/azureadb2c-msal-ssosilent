@@ -1,4 +1,4 @@
-# Single Sign-On between multiple applications - Azure Active Directory B2C
+# Silent Single Sign-On between multiple applications - Azure Active Directory B2C
 
 It is frequent the necesity of Single Sign-On between multiple Azure AD B2C applications so, if the user types his/her credentials and they are validated in the first app,  automatic login will be executed in other applications that are registered in the same Azure AD B2C tenant. This could be possible with SSOSilent function that is available in MSAL (https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-overview)
 
