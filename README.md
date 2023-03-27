@@ -115,3 +115,6 @@ SSOApp2 Terminal window:
   <li>Navigate to <code>http://localhost:7000</code></li>
   <li>Check that the Silent SSO was executed successfully!</li>
 </ol>
+
+<h2>Thanks!</h2>
+I really appreciate to Gisela (https://github.com/0GiS0) the collaboration!! 
