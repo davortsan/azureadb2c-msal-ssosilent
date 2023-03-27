@@ -93,12 +93,12 @@ In this moment, all configuration was done so, we only need to start both projec
 <ol>
   <li>Open SSOApp1 and SSOApp2 folders in different Visual Studio Code windows.</li>
   <li>In each of them, open a Terminal window and execute</li>
-  <code>
-    npm update
-    npm start
-  </code>
 </ol>
 
+```javascript
+npm update
+npm start
+```
 SSOApp1 Terminal window:
 
 ![image](https://user-images.githubusercontent.com/2305432/227875946-e86e9ecf-c85e-4c4a-bb2e-2856018a61d3.png)
