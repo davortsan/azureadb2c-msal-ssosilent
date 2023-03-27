@@ -1,0 +1,11 @@
+#console {
+    font-family: "consolas monospaced", "courier new", courier, monospace;
+    font-size: 9pt;
+    background-color: black;
+    color: olivedrab;
+}
+
+#console ul li {
+    background-color: black;
+    color: olivedrab;
+}
